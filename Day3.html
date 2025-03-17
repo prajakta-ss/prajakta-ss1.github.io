@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- list , table, form , iframe , marque -->
+     <!-- list: ordered list =>when Prefernces is there ; unorderd list => not required preference -->
+
+     <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Oranges</li>
+     </ul>
+
+     <ol>
+        <li>Id</li>
+        <li>Name</li>
+        <li>Age</li>
+        <li>Salary</li>
+     </ol>
+     <!-- -------------------------------------------Table----------------------------------------------------------------- -->
+      <!-- rowspan used to merge two rows --> 
+      <!-- colspan used to merge two column --> 
+     <table border="2px">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td colspan="3">101</td>
+            
+            <td>20</td>
+            <td>30000</td>
+        </tr>
+              <tr>
+
+                  <td>102</td>
+                  <td>Vibhavari</td>
+                  <td>20</td>
+                  <td>40000</td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>Sam</td>
+                    <td>20</td>
+                    <td rowspan="2">35000</td>
+                </tr>
+                <tr>
+                    <td>104</td>
+                    <td>Srushti</td>
+                    <td>20</td>
+                    
+                </tr>
+    </table>
+<!-- ------------------------------------------Form------------------------------------------------------ -->
+<br> 
+<form>
+    <label for="inp1">Id</label>
+    <input type="text" id="inp1" placeholder="Enter Your Id">
+    <br>
+    <label for="inp2">Name</label>
+    <input type="text" id="inp2" placeholder="Enter Your Name">
+   <br>
+    <label for="inp3">Age</label>
+    <input type="number" id="inp3" placeholder="Enter Your Age">
+
+    <br> <label for="inp4">Date Of Birth</label>
+    <input type="date" id="inp4" placeholder="Enter Your Birth Date">
+
+    <br> <br> <label for="inp5">Search</label>
+    <input type="search" id="inp5" placeholder="Search">
+
+    <br> <br> <label for="inp6">Checkbox</label>
+    <input type="checkbox" id="inp6" placeholder="Checkbox">
+    
+    <br> <br> <label for="inp6">Choose Your Color</label>
+    <input type="color" id="inp6" placeholder="Checkbox">
+
+    <br> <br> <label>M</label>
+    <input type="radio" name="male">   
+    <label>F</label>
+    <input type="radio" name="male">
+    <input type="range">
+    <input type="submit">
+
+</form>
+<br>
+    <!-- --------------------------------iframe------------------------------------------ -->
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y2jHaMzHHJc?si=tYzctMmi4t39Nv0T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      </div>
+   <!-- ---------------------Marque ---------------------->
+    <!-- used to move text -->
+
+
+<marquee behavior="fast" direction="up">
+    <h1>
+        India is my Country 
+    </h1></marquee>
+
+    </body>
+</html>
